@@ -1,0 +1,15 @@
+# Ignorar caches de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Ignorar entornos virtuales
+venv/
+env/
+.venv 
+
+
+# Ignorar archivos de sistema
+.DS_Store
