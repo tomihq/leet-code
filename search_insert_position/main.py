@@ -4,7 +4,7 @@ def search(nums, target):
     high = len(nums) - 1
 
     while low <= high:
-        middle = (low + high) // 2
+        middle = math.floor((low + high) / 2)
 
         if(target == nums[middle]):
             return middle
